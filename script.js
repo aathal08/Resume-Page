@@ -1,8 +1,6 @@
 const themeToggle = document.getElementById("themeToggle");
 const year = document.getElementById("year");
-
 year.textContent = new Date().getFullYear();
-
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme === "dark") {
   document.body.classList.add("dark");
