@@ -6,7 +6,6 @@ if (savedTheme === "dark") {
   document.body.classList.add("dark");
   themeToggle.textContent = "☀";
 }
-
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark");
   const dark = document.body.classList.contains("dark");
