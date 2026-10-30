@@ -14,3 +14,20 @@
 .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:900px){.cert-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.cert-grid,.project-grid{grid-template-columns:1fr}.hero-social{gap:16px}.cert-card{min-height:0}}
+
+
+/* Resume refresh: responsive certificate and project layouts */
+.section-subtitle{color:var(--muted);margin-top:12px;max-width:680px}
+.hero-social{display:flex;gap:22px;flex-wrap:wrap;margin-top:28px;color:#d6d4eb;font-weight:700;font-size:.92rem}
+.hero-social a:hover{color:#fff}
+.cert-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cert-card{min-height:220px;align-items:flex-start!important}
+.cert-card strong{line-height:1.35}
+.cert-icon{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;font-weight:850;font-size:.78rem;letter-spacing:.03em}
+.cert-note{font-size:.82rem;color:var(--muted)}
+.project-card{display:flex;flex-direction:column;align-items:flex-start}
+.project-card .project-link{margin-top:auto;padding-top:18px}
+.project-card ul{margin-bottom:4px}
+.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:900px){.cert-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.cert-grid,.project-grid{grid-template-columns:1fr}.hero-social{gap:16px}.cert-card{min-height:0}}
