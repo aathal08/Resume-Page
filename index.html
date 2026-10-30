@@ -3,183 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Athar Ali — B.Tech Computer Science (Cyber Security) student and software engineering enthusiast.">
-  <title>Athar Ali | Resume</title>
+  <meta name="description" content="Athar Ali — B.Tech CSE (Cyber Security) student, full-stack developer, and software engineering enthusiast.">
+  <meta name="theme-color" content="#10131f">
+  <title>Athar Ali | Software Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
-    <nav class="nav container">
-      <a class="logo" href="#">AA</a>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#top" aria-label="Athar Ali home">AA</a>
       <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
+        <a href="#certifications">Certificates</a><a href="#education">Education</a><a href="#contact">Contact</a>
       </div>
       <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">☾</button>
     </nav>
-
-    <div class="hero-content container">
+    <div id="top" class="hero-content container">
       <div>
-        <p class="eyebrow">B.Tech CSE • Cyber Security</p>
+        <p class="eyebrow">B.Tech CSE · Cyber Security · Class of 2028</p>
         <h1>Athar <span>Ali</span></h1>
-        <p class="hero-text">
-          Computer Science (Cyber Security) student with strong software engineering
-          fundamentals in Java, Python, C++, SQL, OOP, DSA and Operating Systems.
-        </p>
+        <p class="hero-text">I build and ship software independently — from full-stack applications and data dashboards to automated testing and secure backend workflows.</p>
         <div class="actions">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn secondary" href="#contact">Contact Me</a>
+          <a class="btn primary" href="#projects">Explore Projects</a>
+          <a class="btn secondary" href="mailto:aath.45ya@gmail.com">Get in Touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/aathal08" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/athaal" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:aath.45ya@gmail.com">Email ↗</a>
         </div>
       </div>
-      <div class="profile-card">
+      <aside class="profile-card">
         <div class="avatar">AA</div>
+        <p class="eyebrow">Software Development</p>
         <h2>Athar Ali</h2>
-        <p>Software Engineering • Cyber Security</p>
+        <p>Computer Science & Engineering (Cyber Security)</p>
         <div class="quick-info">
-          <span>📍 India</span>
-          <span>🎓 Parul University</span>
-          <span>📅 Graduation: 2028</span>
+          <span>📍 India</span><span>🎓 Parul University, Gujarat</span><span>📅 Expected graduation: 2028</span>
         </div>
-      </div>
+      </aside>
     </div>
   </header>
 
   <main>
     <section id="about" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">About</p>
-        <h2>Building with code, learning through security.</h2>
-      </div>
-      <p class="lead">
-        Experienced in developing Python applications and automation tools while
-        analyzing HTTP/HTTPS communication, REST APIs, authentication workflows,
-        debugging and secure coding practices. Familiar with SDLC, Git, Linux,
-        TCP/IP networking fundamentals and collaborative software development.
-      </p>
+      <div class="section-heading"><p class="eyebrow">Profile</p><h2>Building useful software with thoughtful engineering.</h2></div>
+      <p class="lead">B.Tech Computer Science & Engineering (Cyber Security) student at Parul University, graduating in 2028. Built SecureTask Manager, a full-stack React, Node.js, Express and MongoDB application with JWT authentication, rate limiting, per-user data isolation and CI-run tests. Also built a Streamlit dashboard analyzing World Bank climate-finance data with pytest validation. I use AI tools to accelerate research and development, then review, debug and test generated output using my own technical judgment. I enjoy tracing problems to their root cause and delivering practical solutions.</p>
     </section>
 
     <section id="projects" class="section alt">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Selected Work</p>
-          <h2>Projects</h2>
-        </div>
-
+        <div class="section-heading"><p class="eyebrow">Selected Work</p><h2>Projects</h2><p class="section-subtitle">End-to-end development, data analysis, security-minded engineering and automated validation.</p></div>
         <div class="project-grid">
           <article class="card project-card">
-            <div class="project-number">01</div>
-            <h3>Authentication Brute-Force Assessment</h3>
-            <p class="muted">Parul University • GNUMS Student Dashboard</p>
+            <div class="project-number">01 · FULL-STACK</div><h3>SecureTask Manager</h3>
+            <p class="muted">React (Vite) · Node.js · Express · MongoDB · Jest · GitHub Actions</p>
             <ul>
-              <li>Developed Python automation scripts to evaluate authentication workflows and analyze HTTP requests and responses.</li>
-              <li>Investigated HTTP requests, responses, session handling and REST-based communication.</li>
-              <li>Debugged authentication flows and identified areas for improving application reliability and security.</li>
+              <li>Built a multi-user task manager end to end, with a REST API and user-scoped CRUD so one account cannot read or change another user's tasks.</li>
+              <li>Implemented bcrypt password hashing, expiring JWTs, authentication rate limiting and server-side validation that rejects unknown fields such as a client-supplied user ID.</li>
+              <li>Hardened the API with Helmet security headers, size-limited JSON bodies, a CORS origin allowlist and environment checks at startup.</li>
+              <li>Wrote Jest tests for authentication middleware and validation, run on every push and pull request through GitHub Actions.</li>
             </ul>
-            <a class="project-link" href="https://github.com/aathal08/Parul-University-Student-GNUMS-Login-Bruteforce" target="_blank" rel="noopener">View on GitHub ↗</a>
+            <a class="project-link" href="https://github.com/aathal08/secure-task-manager" target="_blank" rel="noopener">View source on GitHub ↗</a>
           </article>
           <article class="card project-card">
-            <div class="project-number">02</div>
-            <h3>NPTEL Result Page Login Assessment</h3>
-            <p class="muted">IIT Madras – NPTEL</p>
+            <div class="project-number">02 · DATA & ANALYTICS</div><h3>World Bank Climate Finance Tracker</h3>
+            <p class="muted">Python · Streamlit · pytest · GitHub Actions</p>
             <ul>
-              <li>Built Python automation to analyze login workflows and authentication behavior.</li>
-              <li>Examined REST APIs, HTTP status codes, backend validation logic and client–server communication.</li>
-              <li>Strengthened debugging and analytical skills through investigation of application responses and edge cases.</li>
+              <li>Built a reproducible pipeline examining FY23 World Bank climate finance in relation to countries' ND-GAIN resilience scores.</li>
+              <li>Parsed the official disclosure PDF into 322 project records across 99 countries and entities.</li>
+              <li>Matched 92 single-country results to the ND-GAIN index and reported Pearson and Spearman correlations in an interactive Streamlit dashboard.</li>
+              <li>Added pytest data-integrity tests and a GitHub Actions workflow to rebuild and validate datasets automatically.</li>
             </ul>
-            <a class="project-link" href="https://github.com/aathal08/NPTEL-login" target="_blank" rel="noopener">View on GitHub ↗</a>
+            <a class="project-link" href="https://github.com/aathal08/world-bank-climate-finance-tracker" target="_blank" rel="noopener">View source on GitHub ↗</a>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">Education</p>
-        <h2>Academic Background</h2>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="dot"></span>
-          <div>
-            <h3>Bachelor of Technology — CSE in Cyber Security</h3>
-            <p>Parul University • Gujarat</p>
-            <span class="date">Expected 2028</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Credentials</p>
-          <h2>Certifications</h2>
-        </div>
-        <div class="cert-grid">
-          <div class="card"><strong>CCST Networking</strong><span>CISCO • 2026</span></div>
-          <div class="card"><strong>Python</strong><span>IBM • 2025</span></div>
-          <div class="card"><strong>IT Specialist — HTML, CSS & JavaScript</strong><span>Certiport • 2025</span></div>
-          <div class="card"><strong>Operating Systems Basics</strong><span>CISCO • 2025</span></div>
+          <article class="card project-card">
+            <div class="project-number">03 · PYTHON & WEB WORKFLOWS</div><h3>Login Workflow Analysis (Python)</h3>
+            <p class="muted">Python · Requests · BeautifulSoup</p>
+            <ul>
+              <li>Wrote scripts to study real web login flows, including HTTP requests and responses, hidden form fields, session handling and status codes.</li>
+              <li>Isolated failures through response and log analysis.</li>
+              <li>Documented security weaknesses and recommended mitigations such as rate limiting, account lockout, MFA and stronger password policies.</li>
+            </ul>
+            <a class="project-link" href="https://github.com/aathal08/NPTEL-login" target="_blank" rel="noopener">View source on GitHub ↗</a>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="skills" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">Technical Stack</p>
-        <h2>Skills</h2>
-      </div>
-
+      <div class="section-heading"><p class="eyebrow">Technical Stack</p><h2>Skills</h2></div>
       <div class="skills-grid">
-        <div class="skill-group">
-          <h3>Programming</h3>
-          <div class="tags">
-            <span>Java</span><span>Python</span><span>C++</span><span>C</span><span>Bash</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Web & APIs</h3>
-          <div class="tags">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>REST APIs</span><span>HTTP/HTTPS</span><span>JSON</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Frameworks & Data</h3>
-          <div class="tags">
-            <span>Django</span><span>Flask</span><span>Requests</span><span>BeautifulSoup</span><span>SQL</span><span>MySQL</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>CS & Security</h3>
-          <div class="tags">
-            <span>OOP</span><span>DSA</span><span>Operating Systems</span><span>TCP/IP</span><span>Web Security</span><span>OWASP Top 10</span><span>Authentication Testing</span><span>Secure Coding</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Tools</h3>
-          <div class="tags">
-            <span>Git</span><span>GitHub</span><span>Linux</span><span>VS Code</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Professional</h3>
-          <div class="tags">
-            <span>Problem Solving</span><span>Analytical Thinking</span><span>Technical Communication</span><span>Team Collaboration</span><span>Adaptability</span>
-          </div>
+        <div class="skill-group"><h3>Programming Languages</h3><div class="tags"><span>Python</span><span>JavaScript</span><span>Java</span><span>C++</span><span>C</span><span>SQL</span><span>Bash</span></div></div>
+        <div class="skill-group"><h3>Web & Backend</h3><div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>Flask</span><span>Django</span><span>REST APIs</span><span>JWT</span><span>bcrypt</span><span>MongoDB</span><span>MySQL</span></div></div>
+        <div class="skill-group"><h3>Testing & CI</h3><div class="tags"><span>Jest</span><span>pytest</span><span>GitHub Actions</span><span>Git</span><span>Linux</span><span>Debugging</span></div></div>
+        <div class="skill-group"><h3>Computer Science Fundamentals</h3><div class="tags"><span>Data Structures & Algorithms</span><span>OOP</span><span>Operating Systems</span><span>Computer Networks</span><span>SDLC</span></div></div>
+        <div class="skill-group"><h3>AI-Assisted Development</h3><div class="tags"><span>LLM APIs</span><span>Prompt Engineering</span><span>AI Code Review</span><span>Output Validation</span></div></div>
+        <div class="skill-group"><h3>Professional Skills</h3><div class="tags"><span>Analytical Thinking</span><span>Problem-Solving</span><span>Technical Communication</span><span>Team Collaboration</span><span>Attention to Detail</span><span>Adaptability</span></div></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section alt">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Credentials</p><h2>Certifications & Learning</h2><p class="section-subtitle">Open a certificate to view or download the original PDF.</p></div>
+        <div class="cert-grid">
+          <article class="card cert-card"><div class="cert-icon">CC</div><strong>Cisco Certified Support Technician (CCST) – Networking</strong><span>Cisco / Certiport · January 2026</span><a class="project-link" href="certificates/cisco-ccst-networking.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">IBM</div><strong>Python</strong><span>IBM SkillsBuild · September 2025</span><a class="project-link" href="certificates/ibm-python.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">H</div><strong>Software Engineer – Role Certification</strong><span>HackerRank · 2026</span><span class="cert-note">Credential listed on resume; certificate file not supplied.</span></article>
+          <article class="card cert-card"><div class="cert-icon">IT</div><strong>IT Specialist – HTML and CSS</strong><span>Certiport · February 2025</span><a class="project-link" href="certificates/certiport-html-css.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">JS</div><strong>IT Specialist – JavaScript</strong><span>Certiport · April 2025</span><a class="project-link" href="certificates/certiport-javascript.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">OS</div><strong>Operating Systems Basics</strong><span>Cisco Networking Academy · September 2025</span><a class="project-link" href="certificates/cisco-operating-systems-basics.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">D</div><strong>Cyber Job Simulation</strong><span>Deloitte / Forage · June 2025</span><a class="project-link" href="certificates/deloitte-cyber-job-simulation.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">THM</div><strong>Cyber Security 101</strong><span>TryHackMe · July 2025</span><a class="project-link" href="certificates/tryhackme-cyber-security-101.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">THM</div><strong>Junior Penetration Tester</strong><span>TryHackMe · October 2025</span><a class="project-link" href="certificates/tryhackme-junior-penetration-tester.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">THM</div><strong>Pre Security</strong><span>TryHackMe · July 2025</span><a class="project-link" href="certificates/tryhackme-pre-security.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+          <article class="card cert-card"><div class="cert-icon">THM</div><strong>SOC Level 1</strong><span>TryHackMe · September 2025</span><a class="project-link" href="certificates/tryhackme-soc-level-1.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
         </div>
       </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-heading"><p class="eyebrow">Education</p><h2>Academic Background</h2></div>
+      <div class="timeline"><div class="timeline-item"><span class="dot"></span><div><h3>B.Tech – Computer Science & Engineering (Cyber Security)</h3><p>Parul University · Gujarat, India</p><span class="date">Expected graduation: 2028</span></div></div></div>
     </section>
   </main>
 
   <footer id="contact">
     <div class="container footer-content">
-      <div>
-        <p class="eyebrow">Let's connect</p>
-        <h2>Open to learning and opportunities.</h2>
-      </div>
+      <div><p class="eyebrow">Let's connect</p><h2>Open to learning, building and meaningful opportunities.</h2></div>
       <div class="contact-links">
         <a href="mailto:aath.45ya@gmail.com">aath.45ya@gmail.com</a>
         <a href="tel:+918920818022">+91 89208 18022</a>
@@ -189,7 +140,6 @@
     </div>
     <p class="copyright">© <span id="year"></span> Athar Ali</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
