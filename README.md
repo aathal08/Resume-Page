@@ -1,17 +1,19 @@
-# Athar Ali — Resume Website
+# Athar Ali — Resume & Project Portfolio
 
-Personal resume and project portfolio for Athar Ali, B.Tech Computer Science & Engineering (Cyber Security), Parul University (expected 2028).
+Personal portfolio for Athar Ali, B.Tech Computer Science & Engineering (Cyber Security), Parul University (expected 2028).
 
-## Website
-GitHub Pages: https://aathal08.github.io/Resume-Page/
+## Live website
+https://aathal08.github.io/Resume-Page/
 
-## Projects
+## Featured projects
 - [SecureTask Manager](https://github.com/aathal08/secure-task-manager)
 - [World Bank Climate Finance Tracker](https://github.com/aathal08/world-bank-climate-finance-tracker)
-- [Login Workflow Analysis (Python)](https://github.com/aathal08/NPTEL-login)
+- [NPTEL Login Workflow Analysis](https://github.com/aathal08/NPTEL-login)
+- [Parul University GNUMS Authentication Assessment](https://github.com/aathal08/Parul-University-Student-GNUMS-Login-Bruteforce)
+- [Fatima Ideals Girls Academy Website](https://github.com/aathal08/fatima-ideals-girls-academy)
 
 ## Certificates
-Original PDF files are available in the [certificates](certificates/) directory and linked from the website's Certifications section.
+The `certificates/` directory is reserved for the supplied certificate PDFs. See [certificates/README.md](certificates/README.md) for intended file names and upload status. The actual PDF binaries still need to be committed before they can be downloaded from the portfolio.
 
 ## Local preview
-Open `index.html#` in a browser, or serve this directory with any static web server.
+Open `index.html` in a browser or serve the repository root with a static web server.
