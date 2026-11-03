@@ -4,15 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Athar Ali — B.Tech CSE Cyber Security student, software developer and project portfolio.">
-  <meta name="theme-color" content="#10131f">
+  <meta name="theme-color" content="#101827">
+  <meta name="color-scheme" content="light dark">
   <title>Athar Ali | Resume & Portfolio</title>
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <header class="hero">
     <nav class="nav container" aria-label="Main navigation">
-      <a class="logo" href="#top">AA</a>
-      <div class="nav-links">
+      <a class="logo" href="#top" aria-label="Athar Ali home">AA</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="primaryNav">
         <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
         <a href="#certifications">Certificates</a><a href="#education">Education</a><a href="#contact">Contact</a>
       </div>
@@ -136,16 +138,16 @@
       <div class="container">
         <div class="section-heading"><p class="eyebrow">Credentials</p><h2>Certifications & Learning</h2><p class="section-subtitle">Selected credentials and technical learning. Open the linked certificate to view the original document.</p></div>
         <div class="cert-grid">
-          <article class="card cert-card"><strong>Cisco Certified Support Technician – Networking</strong><span>Cisco / Certiport · January 2026</span><a class="project-link" href="2403051260008_CISCO.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>Python</strong><span>IBM · September 2025</span><a class="project-link" href="2403051260008_IBM%20Python%20Certificate.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>IT Specialist – HTML and CSS</strong><span>Certiport · February 2025</span><a class="project-link" href="html%20css.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>IT Specialist – JavaScript</strong><span>Certiport · April 2025</span><a class="project-link" href="javascript.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>Operating Systems Basics</strong><span>Cisco Networking Academy · September 2025</span><a class="project-link" href="OperatingSystemsBasicsUpdate20250925-31-71dk4v.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>Cyber Job Simulation</strong><span>Deloitte / Forage · June 2025</span><a class="project-link" href="deliot%20cyber%20certificate.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>Cyber Security 101</strong><span>TryHackMe · July 2025</span><a class="project-link" href="THM-Cyber%20Security%20101.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>Junior Penetration Tester</strong><span>TryHackMe · October 2025</span><a class="project-link" href="THM-junior%20pen%20testing.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>Pre Security</strong><span>TryHackMe · July 2025</span><a class="project-link" href="THM-presecurity%20certificate.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
-          <article class="card cert-card"><strong>SOC Level 1</strong><span>TryHackMe · September 2025</span><a class="project-link" href="THM-SOC%20Level%201.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>Cisco Certified Support Technician – Networking</strong><span>Cisco / Certiport · January 2026</span><a class="project-link" href="certificates/2403051260008_CISCO.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>Python</strong><span>IBM · September 2025</span><a class="project-link" href="certificates/2403051260008%20IBM%20Python%20Certificate.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>IT Specialist – HTML and CSS</strong><span>Certiport · February 2025</span><a class="project-link" href="certificates/html%20css.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>IT Specialist – JavaScript</strong><span>Certiport · April 2025</span><a class="project-link" href="certificates/javascript.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>Operating Systems Basics</strong><span>Cisco Networking Academy · September 2025</span><a class="project-link" href="certificates/OperatingSystemsBasicsUpdate20250925-31-71dk4v.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>Cyber Job Simulation</strong><span>Deloitte / Forage · June 2025</span><a class="project-link" href="certificates/deliot%20cyber%20certificate.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>Cyber Security 101</strong><span>TryHackMe · July 2025</span><a class="project-link" href="certificates/THM-Cyber%20Security%20101.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>Junior Penetration Tester</strong><span>TryHackMe · October 2025</span><a class="project-link" href="certificates/THM-junior%20pen%20testing.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>Pre Security</strong><span>TryHackMe · July 2025</span><a class="project-link" href="certificates/THM-presecurity%20certificate.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
+          <article class="card cert-card"><strong>SOC Level 1</strong><span>TryHackMe · September 2025</span><a class="project-link" href="certificates/THM-SOC%20Level%201.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
           <article class="card cert-card"><strong>UAS / Drone Technology Bootcamp — Certificate of Participation</strong><span>C-DAC, Pune · MeitY project · Parul Institute of Technology, Vadodara · 15–19 September 2025 · 5 days / 40 hours</span><a class="project-link" href="certificates/CDAC.pdf" target="_blank" rel="noopener">View certificate PDF ↗</a></article>
           <article class="card cert-card"><strong>Software Engineer Role Certification</strong><span>HackerRank · August 2026</span><span class="cert-note">Certificate PDF not uploaded yet.</span></article>
         </div>
