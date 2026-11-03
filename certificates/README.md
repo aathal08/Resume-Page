@@ -3,7 +3,7 @@
 This folder is the single location for certificate PDF files used by the portfolio.
 
 ## Files to include
-- C-DAC UAS / Drone Technology Bootcamp (40 hours, 15–19 September 2025) — `cdac-uas-drone-technology.pdf`
+- C-DAC UAS / Drone Technology Bootcamp (40 hours, 15–19 September 2025) — original PDF upload pending; do not link a placeholder file.
 - Cisco CCST Networking — `cisco-ccst-networking.pdf`
 - IBM Python — `ibm-python.pdf`
 - Deloitte Cyber Job Simulation — `deloitte-cyber-job-simulation.pdf`
