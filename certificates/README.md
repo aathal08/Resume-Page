@@ -1,18 +1,19 @@
 # Certificate PDFs
 
-This folder is the single location for certificate PDF files used by the portfolio.
+Certificate links on the portfolio point to the PDF files currently stored in this repository.
 
-## Files to include
-- C-DAC UAS / Drone Technology Bootcamp (40 hours, 15–19 September 2025) — `CDAC.pdf` (uploaded).
-- Cisco CCST Networking — `cisco-ccst-networking.pdf`
-- IBM Python — `ibm-python.pdf`
-- Deloitte Cyber Job Simulation — `deloitte-cyber-job-simulation.pdf`
-- Certiport HTML and CSS — `certiport-html-css.pdf`
-- Certiport JavaScript — `certiport-javascript.pdf`
-- Cisco Networking Academy Operating Systems Basics — `cisco-operating-systems-basics.pdf`
-- TryHackMe Cyber Security 101 — `tryhackme-cyber-security-101.pdf`
-- TryHackMe Junior Penetration Tester — `tryhackme-junior-penetration-tester.pdf`
-- TryHackMe Pre Security — `tryhackme-pre-security.pdf`
-- TryHackMe SOC Level 1 — `tryhackme-soc-level-1.pdf`
+## Uploaded certificates
+- Cisco Certified Support Technician – Networking — `2403051260008_CISCO.pdf`
+- IBM Python — `2403051260008_IBM Python Certificate.pdf`
+- Certiport HTML and CSS — `html css.pdf`
+- Certiport JavaScript — `javascript.pdf`
+- Cisco Networking Academy Operating Systems Basics — `OperatingSystemsBasicsUpdate20250925-31-71dk4v.pdf`
+- Deloitte Cyber Job Simulation — `deliot cyber certificate.pdf`
+- TryHackMe Cyber Security 101 — `THM-Cyber Security 101.pdf`
+- TryHackMe Junior Penetration Tester — `THM-junior pen testing.pdf`
+- TryHackMe Pre Security — `THM-presecurity certificate.pdf`
+- TryHackMe SOC Level 1 — `THM-SOC Level 1.pdf`
+- C-DAC UAS / Drone Technology Bootcamp (40 hours, 15–19 September 2025) — `certificates/CDAC.pdf`
 
-**Current status:** `CDAC.pdf` is uploaded in this folder. Other certificate source documents may still need their PDF binaries added before linking. The HackerRank credential is listed in the resume but no HackerRank certificate PDF was provided.
+## Not yet uploaded
+- HackerRank Software Engineer Role Certification — portfolio entry retained; PDF not present in the repository.
