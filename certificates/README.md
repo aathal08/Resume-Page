@@ -6,8 +6,8 @@ This directory contains the certificate PDFs linked from the portfolio.
 
 | Credential | PDF |
 |---|---|
-| Cisco Certified Support Technician – Networking | `2403051260008_CISCO.pdf` |
-| IBM Python | `2403051260008 IBM Python Certificate.pdf` |
+| Cisco Certified Support Technician – Networking | `Cisco_Certified_Support_Technician_Networking.pdf` |
+| IBM Python | `IBM_Python_Certificate.pdf` |
 | IT Specialist – HTML and CSS | `html css.pdf` |
 | IT Specialist – JavaScript | `javascript.pdf` |
 | Operating Systems Basics | `OperatingSystemsBasicsUpdate20250925-31-71dk4v.pdf` |
@@ -17,10 +17,7 @@ This directory contains the certificate PDFs linked from the portfolio.
 | TryHackMe Pre Security | `THM-presecurity certificate.pdf` |
 | TryHackMe SOC Level 1 | `THM-SOC Level 1.pdf` |
 | C-DAC UAS / Drone Technology Bootcamp | `CDAC.pdf` |
-
-## Not uploaded
-
-- HackerRank Software Engineer Role Certification — the portfolio entry is retained, but its PDF is not present in this repository.
+| HackerRank Software Engineer Role Certification | `HackerRank_Software_Engineer_Certificate.pdf` |
 
 ## Adding a certificate
 
