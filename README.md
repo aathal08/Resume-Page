@@ -54,7 +54,7 @@ This is a static HTML, CSS and JavaScript website. It can be published with GitH
 
 ## Certificates
 
-Certificate files are stored in [`certificates/`](certificates/). The website links to the PDFs in that directory. Refer to [the certificate inventory](certificates/README.md) when adding or updating credentials.
+Certificate files are stored in [`certificates/`](certificates/). The website presents the credentials in a responsive certificate gallery with styled document previews and direct links to the original PDFs. The preview artwork is decorative; the linked PDF remains the source document. Refer to [the certificate inventory](certificates/README.md) when adding or updating credentials.
 
 ## Accessibility and features
 
